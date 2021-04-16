@@ -1,15 +1,10 @@
 button.w3-button.w3-xlarge.w3-theme.w3-hover-teal {
     display: none;
 }
-
-p {
-    display: none;
+#logo {
+    height: 80px;
 }
 
 i.fa.fa-home.w3-margin-right {
     display: none;
-}
-
-img {
-  height: 80px;
 }
