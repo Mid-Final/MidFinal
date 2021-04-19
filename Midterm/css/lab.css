@@ -8,3 +8,10 @@ button.w3-button.w3-xlarge.w3-theme.w3-hover-teal {
 i.fa.fa-home.w3-margin-right {
     display: none;
 }
+#output {
+  text-align: center;
+}
+
+#output h3 {
+  font-family: "Segoe UI",Arial,sans-serif;
+}
