@@ -14,4 +14,9 @@ i.fa.fa-home.w3-margin-right {
 
 #output h3 {
   font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: bold;
+}
+
+div#output {
+    font-size: 20px;
 }
