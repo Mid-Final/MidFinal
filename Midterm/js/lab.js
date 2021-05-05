@@ -30,10 +30,17 @@ function sortingHat(str){
 // that gets the value of #input and assigns it to a variable name
 // runs sortingHat(name) and stores the result in a variable house
 // appends a new styled paragraph to #output that says "The Sorting Hat has sorted you into " + house
-  var myButton = document.getElementById("button");
-  myButton.addEventListener("click", function() {
-  var name = document.getElementById("input").value;
+var myButton = $("#button");
+myButton.click(function() {
+  var name = $("#input").value;
   var genre = sortingHat(name);
-   var newText = "We think you would enjoy this genre: " + genre + ". Check the " + genre + " playlist out below!" + " ";
-  document.getElementById("output").innerHTML = newText;
+  var newText = "We think you would enjoy this genre: " + genre + ". Check the " + genre + " playlist out below!" + " ";
+  $("#output").innerHTML = newText;
 })
+
+function unhide(section) {
+  //adds all before
+  $(".hidey").hide();
+  //shows specific section
+  $("." + section).show();
+}
