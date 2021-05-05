@@ -89,37 +89,63 @@
 </div>
 
 <div id="output">
-  <h3> E N T E R&emsp;F U L L&emsp;N A M E&emsp;F O R&emsp;P L A C E M E N T:</h3>
-   <input type="text" id="input">
+  <h3> M U S I C&emsp;S U R V E Y </h3>
+  <p>1. Enter your name </p><input type="text" id="input">
+  <p>2. What kind of person are you?</p>
+  <input type="radio" id="adventurous" name="personality" value="adventurous">
+  <label for="adventurous">Adventurous</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Serious</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Shy</label>
+  <p>3. What is your favorite color? </p>
+  <div align="center">
+    <label><input type="checkbox" name="favcolors[]" value="cycling" /> black</label>
+    <label class='orange'><input type="checkbox" name="favcolors[]" value="orange" /> orange</label>
+    <label class='violet'><input type="checkbox" name="favcolors[]" value="violet" /> violet</label>
+    <br>
+    <label class='grey'><input type="checkbox" name="favcolors[]" value="Grey" /> Grey</label>
+    <label class='yellow'><input type="checkbox" name="favcolors[]" value="Yellow" /> Yellow</label>
+    <label><input type="checkbox" name="favcolors[]" value="White" /> White</label>
+    <br>
+    <label class='red'><input type="checkbox" name="favcolors[]" value="red" /> red</label>
+    <label class='green'><input type="checkbox" name="favcolors[]" value="green" /> green</label>
+    <label><input type="checkbox" name="favcolors[]" value="other" /> other</label>
+    <br>
+    <label class='pink'><input type="checkbox" name="favcolors[]" value="pink" /> pink</label>
+    <label class='blue'><input type="checkbox" name="favcolors[]" value="blue" /> blue</label>
+  </div>
+  <p>4. How old are you? <p/> <input type="text" id="input"><br><br>
    <button id="button" class="w3-button w3-theme">ENTER</button>
 </div>
 
 <!-- Team Container -->
 <div class="w3-container w3-padding-32 w3-center" id="team">
-<h2><b>O  U  R&emsp;T  E  A  M</b></h2>
-<p>Meet the team - Our Music Junkies! </p>
 
 <div class="w3-row"><br>
 
-<div class="hidey mauricio">
+<div class="hidey rock">
+  <p>We think you would enjoy this genre: Country. Check the  Country playlist out below!</p>
   <img src="img/pic.jpg" alt="Boss" width="150" height="210" class="w3-circle w3-hover-opacity">
   <h3>Mauricio Vega</h3>
   <p>Rock/Alternative Junky!</p>
 </div>
 
-<div class="hidey brianna">
+<div class="hidey country">
+  <p>We think you would enjoy this genre: Country. Check the  Country playlist out below!</p>
   <img src="img/bri.jpeg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
   <h3>Brianna Sanchez Ortega</h3>
   <p>Country Junky!</p>
+
 </div>
 
-<div class="hidey ish">
+<div class="hidey rap">
   <img src="img/ishy.b.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
   <h3>Ishmael Burton</h3>
   <p>Rap/Hip-Hop Junky!</p>
 </div>
 
-<div class="hidey jeremy">
+<div class="hidey jazz">
   <img src="img/jeremy.jpg" alt="Boss" width="150" height="210" class="w3-circle w3-hover-opacity">
   <h3>Jeremy Jacob Fransisco</h3>
   <p>Jazzmaster Junky!</p>
@@ -130,11 +156,10 @@
 
 <!-- Pricing Row -->
 <div class="w3-row-padding w3-center" id="playlist">
-    <h2><b>P  L  A  Y  L  I  S  T</b></h2><br><br>
-    <div class="hidey mauricio">
+    <div class="hidey rock">
       <ul class="w3-ul w3-border w3-hover-shadow">
         <li class="w3-theme">
-          <p class="w3-xlarge">Rock/Alternative</p>
+          <p class="w3-xlarge">Rock/Alternative Playlist</p>
         </li>
         <li class="w3-padding-16"><video width="300" height="215" controls>
           <source src="video/everlong.mp4" type="video/mp4">
@@ -151,10 +176,10 @@
       </ul>
     </div>
 
-    <div class="hidey brianna">
+    <div class="hidey country">
       <ul class="w3-ul w3-border w3-hover-shadow">
         <li class="w3-theme">
-          <p class="w3-xlarge">Country</p>
+          <p class="w3-xlarge">Country Playlist</p>
         </li>
         <li class="w3-padding-16"><video width="300" height="215" controls>
           <source src="video/bitches.mp4" type="video/mp4">
@@ -166,15 +191,15 @@
         <li class="w3-padding-16"><img src="img/jason.jpg" width="135" height="135"><audio src="mp3/country/jason.mp3" controls></audio><br><b>Jason Aldean - Show You Off<br><br></b></li>
         </li>
         <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Link to Playlist</button>
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"><a href="https://youtube.com/playlist?list=PL1kmHrDPoNov2g4jRE_JsJLW7tVVpmyAK"></i> Link to Playlist</button></a>
         </li>
       </ul>
     </div>
 
-    <div class="hidey ish">
+    <div class="hidey rock">
       <ul class="w3-ul w3-border w3-hover-shadow">
         <li class="w3-theme">
-          <p class="w3-xlarge">Rap/Hip-Hop</p>
+          <p class="w3-xlarge">Rap/Hip-Hop Playlist</p>
         </li>
         <li class="w3-padding-16"><video width="300" height="215" controls>
           <source src="video/love.mp4" type="video/mp4">
@@ -186,15 +211,15 @@
         <li class="w3-padding-16"><img src="img/no.chill.png" width="135" height="135"><audio src="mp3/rap/baby.mp3" controls></audio><b><br>Moneybagg Yo - No Chill (feat. Lil Baby & Rylo Rodriguez)<br></b></li>
         </li>
         <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i>Link to Playlist</button>
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Link to Playlist</button>
         </li>
       </ul>
     </div>
 
-    <div class="hidey jeremy">
+    <div class="hidey jazz">
       <ul class="w3-ul w3-border w3-hover-shadow">
         <li class="w3-theme">
-          <p class="w3-xlarge">Jazz</p>
+          <p class="w3-xlarge">Jazz Playlist</p>
         </li>
 
         <li class="w3-padding-16"><video width="300" height="215" controls>
@@ -218,7 +243,7 @@
 <!-- Work Row -->
 <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="about">
 
-<div class="hidey mauricio">
+<div class="hidey rock">
   <div class="w3-card w3-white">
     <div class="w3-container">
     <h3>Rock/Alternative</h3>
@@ -232,7 +257,7 @@
     </div>
 </div>
 
-<div class="hidey brianna">
+<div class="hidey country">
 <div class="w3-card w3-white">
   <div class="w3-container">
   <h3>Country</h3>
@@ -244,7 +269,7 @@
   </div>
 </div>
 
-<div class="hidey ish">
+<div class="hidey rap">
 <div class="w3-card w3-white">
   <div class="w3-container">
   <h3>Rap/Hip-Hop</h3>
@@ -255,7 +280,7 @@
   </div>
 </div>
 
-<div class="hidey jeremy">
+<div class="hidey jazz">
 <div class="w3-card w3-white">
   <div class="w3-container">
     <h3>Jazz</h3>

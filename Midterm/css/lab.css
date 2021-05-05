@@ -24,3 +24,36 @@ div#output {
 .hidey {
   display: none;
 }
+
+
+label.orange {
+  color: orange;
+}
+
+label.violet {
+  color: violet;
+}
+
+label.grey {
+  color: grey;
+}
+
+label.yellow {
+  color: yellow;
+}
+
+label.red {
+  color: red;
+}
+
+label.green {
+  color: green;
+}
+
+label.pink {
+  color: pink;
+}
+
+label.blue {
+  color: blue;
+}

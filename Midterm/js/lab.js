@@ -14,13 +14,13 @@ function sortingHat(str){
 // country, rap/hip-hop, and jazz depending on
 // whether the value of mod is 0, 1, 2, or 3
   if (mod == 0) {
-    return "Rock/Alternative";
+    return "rock";
   } else if (mod == 1) {
-    return "Country";
+    return "country";
   } else if (mod == 2) {
-    return "Rap/Hip-Hop";
+    return "rap";
   } else if (mod == 3){
-    return "Jazz";
+    return "jazz";
   } else {
     return "Wrong input. Try Again ;)"
   }
@@ -32,10 +32,13 @@ function sortingHat(str){
 // appends a new styled paragraph to #output that says "The Sorting Hat has sorted you into " + house
 var myButton = $("#button");
 myButton.click(function() {
-  var name = $("#input").value;
+  var name = $("#input").val();
+  console.log("name",name);
   var genre = sortingHat(name);
-  var newText = "We think you would enjoy this genre: " + genre + ". Check the " + genre + " playlist out below!" + " ";
-  $("#output").innerHTML = newText;
+  //var newText = "We think you would enjoy this genre: " + genre + ". Check the " + genre + " playlist out below!" + " ";
+  //$("#output").innerHTML = newText;
+  unhide(genre);
+
 })
 
 function unhide(section) {
