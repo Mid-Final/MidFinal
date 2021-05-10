@@ -1,3 +1,6 @@
+
+
+
 // Create a function sortingHat()
 // takes a string as an argument: function sortingHat(str)
 // counts the letters in the str and assigns it to a variable len
@@ -33,11 +36,13 @@ function sortingHat(str){
 var myButton = $("#button");
 myButton.click(function() {
   var name = $("#input").val();
+  var personality = $('input[name="personality"]:checked').val();
   console.log("name",name);
-  var genre = sortingHat(name);
+  var genre = sortingHat(name + personality);
   //var newText = "We think you would enjoy this genre: " + genre + ". Check the " + genre + " playlist out below!" + " ";
   //$("#output").innerHTML = newText;
   unhide(genre);
+  $("#output").hide();
 
 })
 

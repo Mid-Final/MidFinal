@@ -26,7 +26,7 @@
 </nav>
 
 <!-- Navbar -->
-<div class="w3-top">
+<!-- <div class="w3-top">
  <div class="w3-bar w3-theme-red w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
   <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i><img id="logo" src="img/logo2.png"></a>
@@ -34,17 +34,17 @@
   <a href="#playlist" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Playlist</a>
   <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
-    <div class="w3-dropdown-hover w3-hide-small">
-    <button class="w3-button" title="Notifications">Genres <i class="fa fa-caret-down"></i></button>
-    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-      <a href="#" class="w3-bar-item w3-button">Rap/Hip-Hop Music</a>
-      <a href="#" class="w3-bar-item w3-button">Jazz Music</a>
-      <a href="#" class="w3-bar-item w3-button">Rock/Alternative Music</a>
-      <a href="#" class="w3-bar-item w3-button">Country Music</a>
-    </div>
   </div>
   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div> -->
+
+ <!-- <div id="navbar">
+   <a href="#team">Team</a>
+   <a href="#playlist">Playlist</a>
+   <a href="#contact">Contact</a>
  </div>
+
+ <br> -->
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
@@ -92,29 +92,27 @@
   <h3> M U S I C&emsp;S U R V E Y </h3>
   <p><b>1. Enter your name </b></p><input type="text" id="input">
   <p><b>2. What kind of person are you?</b></p>
-  <input type="radio" id="adventurous" name="personality" value="adventurous">
-  <label for="adventurous">Adventurous</label>
-  <input type="radio" id="female" name="gender" value="female">
-  <label for="female">Serious</label>
-  <input type="radio" id="female" name="gender" value="female">
-  <label for="female">Shy</label>
+  <label><input type="radio" name="personality" value="123">Adventurous</label>
+  <label><input type="radio" name="personality" value="12">Serious</label>
+  <label><input type="radio" name="personality" value="1">Shy</label>
+  <label><input type="radio" name="personality" value="1234">Romantic</label>
   <p><b>3. What is your favorite color? </b></p>
   <div align="center">
-    <label><input type="checkbox" name="favcolors[]" value="cycling" /> Black</label>
-    <label class='orange'><input type="checkbox" name="favcolors[]" value="orange" /> Orange</label>
-    <label class='purple'><input type="checkbox" name="favcolors[]" value="purple" /> Purple</label>
+    <label><input type="checkbox" name="favcolors" value="cycling" /> Black</label>
+    <label class='orange'><input type="checkbox" name="favcolors" value="orange" /> Orange</label>
+    <label class='purple'><input type="checkbox" name="favcolors" value="purple" /> Purple</label>
     <br>
-    <label class='grey'><input type="checkbox" name="favcolors[]" value="Grey" /> Grey</label>
-    <label class='yellow'><input type="checkbox" name="favcolors[]" value="Yellow" /> Yellow</label>
-    <label><input type="checkbox" name="favcolors[]" value="White" /> White</label>
+    <label class='grey'><input type="checkbox" name="favcolors" value="Grey" /> Grey</label>
+    <label class='yellow'><input type="checkbox" name="favcolors" value="Yellow" /> Yellow</label>
+    <label><input type="checkbox" name="favcolors" value="White" /> White</label>
     <br>
-    <label class='red'><input type="checkbox" name="favcolors[]" value="red" /> Red</label>
-    <label class='green'><input type="checkbox" name="favcolors[]" value="green" /> Green</label>
-    <label class='beige'><input type="checkbox" name="favcolors[]" value="beige"/> Beige</label>
+    <label class='red'><input type="checkbox" name="favcolors" value="red" /> Red</label>
+    <label class='green'><input type="checkbox" name="favcolors" value="green" /> Green</label>
+    <label class='beige'><input type="checkbox" name="favcolors" value="beige"/> Beige</label>
     <br>
-    <label class='pink'><input type="checkbox" name="favcolors[]" value="pink" /> Pink</label>
-    <label class='blue'><input type="checkbox" name="favcolors[]" value="blue" /> Blue</label>
-    <label class='brown'><input type="checkbox" name="favcolors[]" value="brown"/> Brown</label>
+    <label class='pink'><input type="checkbox" name="favcolors" value="pink" /> Pink</label>
+    <label class='blue'><input type="checkbox" name="favcolors" value="blue" /> Blue</label>
+    <label class='brown'><input type="checkbox" name="favcolors" value="brown"/> Brown</label>
   </div>
   <p><b>4. How old are you? </b><p/> <input type="text" id="input"><br><br>
    <button id="button" class="w3-button w3-theme">ENTER</button>
@@ -142,7 +140,7 @@
 
 <div class="hidey rap">
   <p>We think you would enjoy this genre: Rap. Check the Rap playlist out below!</p>
-  <img src="img/ishy.b.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <img src="img/ishy.b.jpg" alt="Boss" width="150" height="210"  class="w3-circle w3-hover-opacity">
   <h3>Ishmael Burton</h3>
   <p>Rap/Hip-Hop Junky!</p>
 </div>
@@ -174,7 +172,7 @@
         <li class="w3-padding-16"><img src="img/hot.png" width="135" height="135"><audio src="mp3/rock/smile.mp3" controls></audio><b><br> The Killers - Smile Like You Mean It<br><br></b></li>
         </li>
         <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Link to Playlist</button>
+          <button class="w3-button w3-teal w3-padding-large"></i> Link to Playlist</button>
         </li>
       </ul>
     </div>
@@ -194,7 +192,7 @@
         <li class="w3-padding-16"><img src="img/jason.jpg" width="135" height="135"><audio src="mp3/country/jason.mp3" controls></audio><br><b>Jason Aldean - Show You Off<br><br></b></li>
         </li>
         <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"><a href="https://youtube.com/playlist?list=PL1kmHrDPoNov2g4jRE_JsJLW7tVVpmyAK"></i> Link to Playlist</button></a>
+          <button class="w3-button w3-teal w3-padding-large"><a href="https://youtube.com/playlist?list=PL1kmHrDPoNov2g4jRE_JsJLW7tVVpmyAK"</a></i> Link to Playlist</button>
         </li>
       </ul>
     </div>
@@ -214,33 +212,31 @@
         <li class="w3-padding-16"><img src="img/no.chill.png" width="135" height="135"><audio src="mp3/rap/baby.mp3" controls></audio><b><br>Moneybagg Yo - No Chill (feat. Lil Baby & Rylo Rodriguez)<br></b></li>
         </li>
         <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"><a href="https://youtube.com/playlist?list=PLTJmmYoPMuIuA15liRvL9m0hiSZmC9dO6"></i> Link to Playlist</button></a>
+          <button class="w3-button w3-teal w3-padding-large"><a href="https://youtube.com/playlist?list=PLTJmmYoPMuIuA15liRvL9m0hiSZmC9dO6"</a></i> Link to Playlist</button>
         </li>
       </ul>
     </div>
+
 
     <div class="hidey jazz">
       <ul class="w3-ul w3-border w3-hover-shadow">
         <li class="w3-theme">
           <p class="w3-xlarge">Jazz Playlist</p>
         </li>
-
         <li class="w3-padding-16"><video width="300" height="215" controls>
-            <source src="video/smooth.mp4" type="video/mp4">
-              <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-              </video> </li>
-        <li class="w3-padding-16"><img src="img/stan.jpg"width="135" height="135"><audio src="mp3/jazz/girl.mp3" controls></audio><b><br> Stan Getz & João Gilberto & Astrud Gilberto - The Girl from Ipanema<br></b></li>
+          <source src="video/smooth.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+            </video> </li>
+        <li class="w3-padding-16"><img src="img/stan.jpg" width="135" height="135"><audio src="mp3/jazz/girl.mp3" controls></audio><b><br> Stan Getz & João Gilberto & Astrud Gilberto - The Girl from Ipanema<br></b></li>
         <li class="w3-padding-16"><img src="img/wes.jpg" width="135" height="135"><audio src="mp3/jazz/dots.mp3" controls></audio><b><br> Wes Montgomery - Polka Dots and Moonbeams<br></b></li>
-        <li class="w3-padding-16"><img src="img/red.jpg" width="135" height="135"><audio src="mp3/jazz/line.mp3" controls></audio><b><br> Roy Ayers Ubiquity - Lifeline<br><br></b></li>
+        <li class="w3-padding-16"><img src="img/red.jpg" width="135" height="135"><audio src="mp3/jazz/line.mp3" controls></audio><b><br> Roy Ayers Ubiquity - Lifeline<br></b></li>
         </li>
         <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"><a href="https://youtube.com/playlist?list=PLMM8NKzkCtlM6GUFxIQo5FCFhHtAy7J3w"></i> Link to Playlist</button>
+          <button class="w3-button w3-teal w3-padding-large"><a href="https://youtube.com/playlist?list=PLMM8NKzkCtlM6GUFxIQo5FCFhHtAy7J3w"</a></i> Link to Playlist</button></a>
         </li>
       </ul>
     </div>
-</div>
-
 </div>
 
 <!-- Work Row -->
@@ -267,7 +263,6 @@
   <p>I recently started listening to Country music more. This is a genre of music that mixes with other genres which is interesting.
     A country song could get the feel of a pop song which is a great crossover. I find myself leaning towards country when doing homework
      or getting ready. Overall, Country music isn't only for cowboys/girls.#yeehaw #howdyYall   - Brianna Sanchez O.</p>
-
   </div>
   </div>
 </div>
