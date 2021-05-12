@@ -65,3 +65,30 @@ label.pink {
 label.blue {
   color: blue;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.container {
+  background: linear-gradient(225deg, #28785E, #9ED99C, #0B4359, #0B4359, #020126);
+  background-size: 300% 300%;
+  box-sizing: border-box;
+  display: table;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  width: 100vw;
+  -webkit-animation: Rainbow 25s ease infinite;
+  -moz-animation: Rainbow 25s ease infinite;
+  animation: Rainbow 25s ease infinite;
+}
+
+@-webkit-keyframes Rainbow {
+  0% {
+    background-position: 94% 0%; }
+  50% {
+    background-position: 7% 100%; }
+  100% {
+    background-position: 94% 0%; } }
