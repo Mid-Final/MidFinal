@@ -43,8 +43,16 @@ myButton.click(function() {
   //$("#output").innerHTML = newText;
   unhide(genre);
   $("#output").hide();
-
 })
+
+//event listener
+$(".menu-genre").click(function() {
+  //console.log($(this));
+  var genre = $(this).data("genre");
+  //console.log(genre + " genre");
+  unhide(genre);
+})
+
 
 function unhide(section) {
   //adds all before

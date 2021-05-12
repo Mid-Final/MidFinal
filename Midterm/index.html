@@ -15,14 +15,14 @@
 <body id="myPage">
 
 <!-- Sidebar on click -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xlarge" style="display:none;z-index:2" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
     <i class="fa fa-remove"></i>
   </a>
-  <a href="#" class="w3-bar-item w3-button">Rap/Hip-Hop Music</a>
-  <a href="#" class="w3-bar-item w3-button">Jazz Music</a>
-  <a href="#" class="w3-bar-item w3-button">Rock/Alternative Music</a>
-  <a href="#" class="w3-bar-item w3-button">Country Music</a>
+  <a href="#" class="w3-bar-item w3-button menu-genre" data-genre="rap">Rap/Hip-Hop Music</a>
+  <a href="#" class="w3-bar-item w3-button menu-genre" data-genre="jazz">Jazz Music</a>
+  <a href="#" class="w3-bar-item w3-button menu-genre" data-genre="rock">Rock/Alternative Music</a>
+  <a href="#" class="w3-bar-item w3-button menu-genre" data-genre="country">Country Music</a>
 </nav>
 
 <!-- Navbar -->
@@ -45,16 +45,6 @@
  </div>
 
  <br> -->
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="#team" class="w3-bar-item w3-button">Team</a>
-    <a href="#work" class="w3-bar-item w3-button">About Us</a>
-    <a href="#pricing" class="w3-bar-item w3-button">Playlist</a>
-    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    <a href="#" class="w3-bar-item w3-button">Search</a>
-  </div>
-</div>
 
 <!-- Image Header -->
 <div class="w3-display-container w3-animate-opacity">
@@ -121,7 +111,7 @@
 <div class="w3-row"><br>
 
 <div class="hidey rock">
-  <p>We think you would enjoy this genre: Rock. Check the Rock playlist out below!</p>
+  <h3>We think you would enjoy this genre: Rock. Check the Rock playlist out below!</h3><br>
   <img src="img/pic.jpg" alt="Boss" width="150" height="210" class="w3-circle w3-hover-opacity">
   <h3>Mauricio Vega</h3>
   <p>Rock/Alternative Junky!</p>
