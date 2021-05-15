@@ -45,7 +45,7 @@ myButton.click(function() {
   $("#output").hide();
 })
 
-//event listener
+//event listener to link pages without taking survey
 $(".menu-genre").click(function() {
   //console.log($(this));
   var genre = $(this).data("genre");

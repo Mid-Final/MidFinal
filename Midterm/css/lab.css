@@ -66,6 +66,15 @@ label.blue {
   color: blue;
 }
 
+footer {
+  text-align: center;
+}
+
+#apple {
+  margin-left: 60px;
+}
+
+/*  Color Changing background https://codepen.io/samcorin/pen/ZQRMoK */
 body {
   margin: 0;
   padding: 0;
@@ -76,7 +85,6 @@ body {
   background-size: 300% 300%;
   box-sizing: border-box;
   display: table;
-  height: 100vh;
   margin: 0;
   position: relative;
   width: 100vw;
@@ -91,4 +99,5 @@ body {
   50% {
     background-position: 7% 100%; }
   100% {
-    background-position: 94% 0%; } }
+    background-position: 94% 0%; }
+   }

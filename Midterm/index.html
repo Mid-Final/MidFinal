@@ -25,53 +25,14 @@
   <a href="#" class="w3-bar-item w3-button menu-genre" data-genre="country">Country Music</a>
 </nav>
 
-<!-- Navbar -->
-<!-- <div class="w3-top">
- <div class="w3-bar w3-theme-red w3-left-align">
-  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i><img id="logo" src="img/logo2.png"></a>
-  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
-  <a href="#playlist" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Playlist</a>
-  <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
-  </div>
-  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
- </div> -->
-
- <!-- <div id="navbar">
-   <a href="#team">Team</a>
-   <a href="#playlist">Playlist</a>
-   <a href="#contact">Contact</a>
- </div>
-
-
- <br> -->
-
 
 <!-- Image Header -->
 <div class="container">
 <div class="header">
-  <img src="img/3.png" alt="music" style="width:100%;min-height:350px;max-height:600px;">
+  <img src="img/header.png" alt="music" style="width:100%;min-height:350px;max-height:600px;">
 </div>
 </div>
 
-<!-- Modal -->
-<div id="id01" class="w3-modal">
-  <div class="w3-modal-content w3-card-4 w3-animate-top">
-    <header class="w3-container w3-teal w3-display-container">
-      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
-      <h4>Oh snap! We just showed you a modal..</h4>
-      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
-    </header>
-    <div class="w3-container">
-      <p>Cool huh? Ok, enough teasing around..</p>
-      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
-    </div>
-    <footer class="w3-container w3-teal">
-      <p>Modal footer</p>
-    </footer>
-  </div>
-</div>
 
 <!-- Container -->
 <div class="w3-container" style="position:relative">
@@ -80,13 +41,14 @@
 </div>
 
 <div id="output">
+  <br>
   <h3> M U S I C&emsp;S U R V E Y </h3>
   <p><b>1. Enter your name </b></p><input type="text" id="input">
   <p><b>2. What kind of person are you?</b></p>
-  <label><input type="radio" name="personality" value="123">Adventurous</label>
-  <label><input type="radio" name="personality" value="12">Serious</label>
-  <label><input type="radio" name="personality" value="1">Shy</label>
-  <label><input type="radio" name="personality" value="1234">Romantic</label>
+  <label><input type="radio" name="personality" value="123"> Adventurous</label>
+  <label><input type="radio" name="personality" value="12"> Serious</label>
+  <label><input type="radio" name="personality" value="1"> Shy</label>
+  <label><input type="radio" name="personality" value="1234"> Romantic</label>
   <p><b>3. What is your favorite color? </b></p>
   <div align="center">
     <label><input type="checkbox" name="favcolors" value="cycling" /> Black</label>
@@ -111,18 +73,17 @@
 
 <!-- Team Container -->
 <div class="w3-container w3-padding-32 w3-center" id="team">
-
 <div class="w3-row"><br>
 
 <div class="hidey rock">
-  <h3>We think you would enjoy this genre: Rock. Check the Rock playlist out below!</h3><br>
+  <h3><b>I think you would headbang to Rock. ROCK ON!</b></h3>
   <img src="img/pic.jpg" alt="Boss" width="150" height="210" class="w3-circle w3-hover-opacity">
   <h3>Mauricio Vega</h3>
   <p>Rock/Alternative Junky!</p>
 </div>
 
 <div class="hidey country">
-  <p>Howdy! I think you would enjoy listening to Country Music. The Country playlist is down below! Give it a listen!</p>
+  <h3><b>Howdy Y'all! I think you would enjoy listening to Country Music. The Country playlist is down below! Give it a listen!</b></h3>
   <img src="img/bri.jpeg" alt="Boss" width="150" height="210" class="w3-circle w3-hover-opacity">
   <h3>Brianna Sanchez Ortega</h3>
   <p>Country Junky!</p>
@@ -130,14 +91,14 @@
 </div>
 
 <div class="hidey rap">
-  <p>We think you would enjoy this genre: Rap. Check the Rap playlist out below!</p>
+  <h3><b></b></h3>
   <img src="img/ishy.b.jpg" alt="Boss" width="150" height="210"  class="w3-circle w3-hover-opacity">
   <h3>Ishmael Burton</h3>
   <p>Rap/Hip-Hop Junky!</p>
 </div>
 
 <div class="hidey jazz">
-  <p>We think you would enjoy this genre: Jazz. Check the Jazz playlist out below!</p>
+  <h3><b>I think you would be JAZZ'd with this playlist!</b></h3>
   <img src="img/jeremy.jpg" alt="Boss" width="150" height="210" class="w3-circle w3-hover-opacity">
   <h3>Jeremy Jacob Fransisco</h3>
   <p>Jazzmaster Junky!</p>
@@ -146,7 +107,7 @@
 </div>
 </div>
 
-<!-- Pricing Row -->
+<!-- Playlist -->
 <div class="w3-row-padding w3-center" id="playlist">
     <div class="hidey rock">
       <ul class="w3-ul w3-border w3-hover-shadow">
@@ -161,9 +122,8 @@
         <li class="w3-padding-16"><img src="img/black.jpg"width="135" height="135"><audio src="mp3/rock/parade.mp3" controls></audio><b><br> My Chemical Romance - Welcome To The Black Prade</b></li>
         <li class="w3-padding-16"><img src="img/home.jpg" width="135" height="135"><audio src="mp3/rock/down.mp3" controls></audio><b><br> A Day To Remember - The Downfall Of Us All</b></li>
         <li class="w3-padding-16"><img src="img/hot.png" width="135" height="135"><audio src="mp3/rock/smile.mp3" controls></audio><b><br> The Killers - Smile Like You Mean It<br><br></b></li>
-        </li>
         <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large"></i> Link to Playlist</button>
+          <button class="w3-button w3-teal w3-padding-large"><a href="https://youtube.com/playlist?list=PLRXqpr6EevtIiX0JmDICBxJwrQEQfCc3b"</a>Link to Playlist</button>
         </li>
       </ul>
     </div>
@@ -178,13 +138,12 @@
             <source src="movie.ogg" type="video/ogg">
               Your browser does not support the video tag.
             </video>  </li>
-        <li class="w3-padding-16"><img src="img/lukec.jpg" width="135" height="135"><audio src="mp3/country/luke.mp3" controls></audio><b><br>Luke Combs - Hurricane<br><br></b></li>
-        <li class="w3-padding-16"><img src="img/kaceym.png" width="135" height="135"><audio src="mp3/country/space.mp3" controls></audio><b><br>Kacey Musgraves - Space Cowboy<br><br></b></li>
-        <li class="w3-padding-16"><img src="img/jason.jpg" width="135" height="135"><audio src="mp3/country/jason.mp3" controls></audio><br><b>Jason Aldean - Show You Off<br><br></b></li>
-        </li>
-        <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large"><a href="https://youtube.com/playlist?list=PL1kmHrDPoNov2g4jRE_JsJLW7tVVpmyAK"</a></i> Link to Playlist</button>
-        </li>
+        <li class="w3-padding-16"><img src="img/lukec.jpg" width="135" height="135"><audio src="mp3/country/luke.mp3" controls></audio><b><br>Luke Combs - Hurricane<br></b></li>
+        <li class="w3-padding-16"><img src="img/kaceym.png" width="135" height="135"><audio src="mp3/country/space.mp3" controls></audio><b><br>Kacey Musgraves - Space Cowboy<br></b></li>
+        <li class="w3-padding-16"><img src="img/jason.jpg" width="135" height="135"><audio src="mp3/country/jason.mp3" controls></audio><b><br>Jason Aldean - Show You Off<br></b></li>
+        <div class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><a href="https://youtube.com/playlist?list=PL1kmHrDPoNov2g4jRE_JsJLW7tVVpmyAK"</a> Link to Playlist</button>
+        </div>
       </ul>
     </div>
 
@@ -201,9 +160,8 @@
         <li class="w3-padding-16"><img src="img/pluto.babypluto.png" width="135" height="135"><audio src="mp3/rap/uzi.mp3" controls></audio><b><br>Future & Lil Uzi Vert - Stripes Like Burberry<br></b></li>
         <li class="w3-padding-16"><img src="img/slime.language2.png" width="135" height="135"><audio src="mp3/rap/ski.mp3" controls></audio><b><br>Young Stoner Life, Young Thug, Gunna - Ski<br></b></li>
         <li class="w3-padding-16"><img src="img/no.chill.png" width="135" height="135"><audio src="mp3/rap/baby.mp3" controls></audio><b><br>Moneybagg Yo - No Chill (feat. Lil Baby & Rylo Rodriguez)<br></b></li>
-        </li>
         <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large"><a href="https://youtube.com/playlist?list=PLTJmmYoPMuIuA15liRvL9m0hiSZmC9dO6"</a></i> Link to Playlist</button>
+          <button class="w3-button w3-teal w3-padding-large"><a href="https://youtube.com/playlist?list=PLTJmmYoPMuIuA15liRvL9m0hiSZmC9dO6"</a>Link to Playlist</button>
         </li>
       </ul>
     </div>
@@ -219,12 +177,11 @@
             <source src="movie.ogg" type="video/ogg">
               Your browser does not support the video tag.
             </video> </li>
-        <li class="w3-padding-16"><img src="img/stan.jpg" width="135" height="135"><audio src="mp3/jazz/girl.mp3" controls></audio><b><br> Stan Getz & João Gilberto & Astrud Gilberto - The Girl from Ipanema<br></b></li>
-        <li class="w3-padding-16"><img src="img/wes.jpg" width="135" height="135"><audio src="mp3/jazz/dots.mp3" controls></audio><b><br> Wes Montgomery - Polka Dots and Moonbeams<br></b></li>
-        <li class="w3-padding-16"><img src="img/red.jpg" width="135" height="135"><audio src="mp3/jazz/line.mp3" controls></audio><b><br> Roy Ayers Ubiquity - Lifeline<br></b></li>
-        </li>
+              <li class="w3-padding-16"><img src="img/stan.jpg" width="135" height="135"><audio src="mp3/jazz/girl.mp3" controls></audio><b><br> Stan Getz & João Gilberto & Astrud Gilberto - The Girl from Ipanema<br></b></li>
+              <li class="w3-padding-16"><img src="img/wes.jpg" width="135" height="135"><audio src="mp3/jazz/dots.mp3" controls></audio><b><br> Wes Montgomery - Polka Dots and Moonbeams<br></b></li>
+              <li class="w3-padding-16"><img src="img/red.jpg" width="135" height="135"><audio src="mp3/jazz/line.mp3" controls></audio><b><br> Roy Ayers Ubiquity - Lifeline<br></b></li>
         <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large"><a href="https://youtube.com/playlist?list=PLMM8NKzkCtlM6GUFxIQo5FCFhHtAy7J3w"</a></i> Link to Playlist</button></a>
+          <button class="w3-button w3-teal w3-padding-large"><a href="https://youtube.com/playlist?list=PLMM8NKzkCtlM6GUFxIQo5FCFhHtAy7J3w"</a> Link to Playlist</button>
         </li>
       </ul>
     </div>
@@ -316,14 +273,13 @@
 
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
-  <h4>Follow Us</h4> <!-- POSSIBLE NAMES discover, Music platforms  -->
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
-  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-
+<footer class="w3-container w3-padding-32 w3-theme-d1">
+  <h4>Check These Music Platforms!</h4>
+  <a id="apple" class="w3-button w3-large w3-teal" href="https://music.apple.com/us/listen-now?itscg=20200&itsct=rv_eve&ls=1&mttnagencyid=2433&mttncc=US&mttnpid=305109&mttnsiteid=125115&mttnsubad=mus-110870493563&mttnsubkw=ag-110870493563-ad-496847896705" title="Apple Music"><i class="fa fa-apple"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.pandora.com/account/sign-in" title="Pandora Music"><i class="fa fa-product-hunt"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.spotify.com/us/" title="Spotify"><i class="fa fa-spotify"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://soundcloud.com/" title="SoundCloud"><i class="fa fa-soundcloud"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.youtube.com/musicpremium" title="Youtube"><i class="fa fa-youtube-square"></i></a>
 
   <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
     <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
